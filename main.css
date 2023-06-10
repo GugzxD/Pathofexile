@@ -5,6 +5,10 @@ body {
     background-size: 150%
 }
 
+#carousel img {
+    width: 100%;
+}
+
 
 .navbar {
     background-color: #000000;
