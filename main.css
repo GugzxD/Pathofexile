@@ -1,15 +1,18 @@
 body {
     font-family: Roboto,sans-serif;
+    color: white;
+    background-image: url("./images/darkness-the-darkness-skull-wallpaper-preview.jpg");
+    background-size: 150%
 }
 
 
 .navbar {
-    background-color: #e15f41;
+    background-color: #000000;
 }
 
 #cabecalho .nav .nav-link.active {
     background-color: white;
-    color: #e15f41;
+    color: red;
 }
 
 #cabecalho .nav .nav-link,
@@ -20,34 +23,40 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #ffeae6;
+    background-color: white;
 }
 
 .section-title {
-    font-family: Pacifico, cursive;
+    font-family: Bebas Neue;
+    
 }
 
 .section-title span {
-    color: #e15f41;
+    color: red;
 }
 
 #sobreo,
 #cardapio {
-    background-color: #ffeae6;
+    bbbackground-color: black;
+}
+
+#fale-conosco,
+#eventos {
+   bbbackground-color: darkgray;
 }
 
 .text-colored {
-    color: #e15f41;
+    color:rgb(255, 0, 0);
 }
 
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
-    background-color:  #e15f41;
+    background-color: red;
     color: white;
 }
 
 .nav-cardapio .nav-link:hover {
-    color: #e15f41;
+    color:red;
 }
 
 .social-links li {
